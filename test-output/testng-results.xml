@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-08T12:01:47 IST" name="Suite" finished-at="2023-05-08T12:05:02 IST" duration-ms="195241">
+    <groups>
+    </groups>
+    <test started-at="2023-05-08T12:01:47 IST" name="Test" finished-at="2023-05-08T12:05:02 IST" duration-ms="195241">
+      <class name="selenimwithtestng.actitime1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:selenimwithtestng.actitime1@9225652]" started-at="2023-05-08T12:01:47 IST" name="openBrowser" finished-at="2023-05-08T12:03:35 IST" duration-ms="107390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:selenimwithtestng.actitime1@9225652]" started-at="2023-05-08T12:03:35 IST" name="openApp" finished-at="2023-05-08T12:04:06 IST" duration-ms="31279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testactimeLogin(java.lang.String,java.lang.String)[pri:0, instance:selenimwithtestng.actitime1@9225652]" started-at="2023-05-08T12:04:06 IST" name="testactimeLogin" data-provider="testData" finished-at="2023-05-08T12:04:12 IST" duration-ms="5981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testactimeLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:selenimwithtestng.actitime1@9225652]" started-at="2023-05-08T12:04:12 IST" name="closeBrowser" finished-at="2023-05-08T12:05:02 IST" duration-ms="50153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenimwithtestng.actitime1 -->
+      <class name="selenimwithtestng.actitime2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:selenimwithtestng.actitime2@64cd705f]" started-at="2023-05-08T12:01:47 IST" name="openBrowser" finished-at="2023-05-08T12:01:49 IST" duration-ms="1956" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:47)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:164)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:100)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:111)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:101)
+at selenimwithtestng.BaseProgram.openBrowser(BaseProgram.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:selenimwithtestng.actitime2@64cd705f]" started-at="2023-05-08T12:01:50 IST" name="openApp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683527510317" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:selenimwithtestng.actitime2@64cd705f]" started-at="2023-05-08T12:01:50 IST" name="testInvalidLogin" data-provider="testData" finished-at="2023-05-08T12:01:50 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:47)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:164)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
+at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:100)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:111)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:101)
+at selenimwithtestng.BaseProgram.openBrowser(BaseProgram.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:selenimwithtestng.actitime2@64cd705f]" started-at="2023-05-08T12:01:50 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683527510619" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenimwithtestng.actitime2 -->
+      <class name="selenimwithtestng.actitime3">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:selenimwithtestng.actitime3@4b0b0854]" started-at="2023-05-08T12:01:47 IST" name="openBrowser" finished-at="2023-05-08T12:02:59 IST" duration-ms="71831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:selenimwithtestng.actitime3@4b0b0854]" started-at="2023-05-08T12:02:59 IST" name="openApp" finished-at="2023-05-08T12:03:41 IST" duration-ms="41683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testForgotPassword(java.lang.String)[pri:0, instance:selenimwithtestng.actitime3@4b0b0854]" started-at="2023-05-08T12:03:41 IST" name="testForgotPassword" data-provider="testData" finished-at="2023-05-08T12:03:44 IST" duration-ms="3829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:selenimwithtestng.actitime3@4b0b0854]" started-at="2023-05-08T12:03:44 IST" name="closeBrowser" finished-at="2023-05-08T12:04:51 IST" duration-ms="66228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenimwithtestng.actitime3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
